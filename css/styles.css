@@ -251,9 +251,7 @@ label{
     .productos__fotos{
         margin: 25px;
     }
-    .headeralt{
-        background-image: none;
-    }
+   
 
     /* animacion de contacto para pc */
     .none:hover{
