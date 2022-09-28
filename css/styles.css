@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); 
+    background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0);
+    display: grid;
+    justify-content: center;
+
+}
+header{
+    background-image: url(../img/fondopasto.jpg);
+    background-size: contain;
+}
+
+nav, ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white    ;
+    font-size: large;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+a{  
+    background: rgb(127,9,190);   background: radial-gradient(circle, rgba(127,9,190,1) 39%, rgba(227,46,205,1) 54%, rgba(213,70,252,1) 64%, rgba(252,70,74,0.8099614845938375) 80%);
+    border-radius: 50%;}
+
+h1{
+    text-align: center;
+    color: rgb(22, 0, 43);
+    font-family: fantasy;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #0e4c7e;
+    margin: 20px;
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0);
+    background: linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0);
+}
+
+h2{
+    text-align: center;
+    color: rgb(24, 7, 32);
+    background-color: wheat;
+}
+
+.ofertas{
+   display: grid;
+   justify-content: center;
+
+}
+.ofertas__fotos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border:10px double #0e4c7e ;
+    margin-bottom: 10px;
+}
+
+.productos{
+    display: grid;
+    justify-content: center;
+}
+
+.productos__fotos{
+    display: flex;
+    flex-direction: column;
+    border: 10px dotted #0e4c7e;
+    margin: 10px;
+}
+
+span{
+    background-color: grey;
+    color: white;
+    font-size: xx-small;
+    text-align: start;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: azure;
+    color: darkslategrey;
+    font-size: 10px;
+}
+
+
+/* PARTE PAGINA CONTACTO */
+.logos
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+    
+}
+.none{
+   width: 100px;
+   height: 100px;
+   margin-left:30px;
+   margin-bottom: 40px;
+  
+
+}
+/* PARTE PAGINA ENVIOS */
+.envios{
+    background-color: white;
+    display: flex;
+}
+label{
+    padding: 72px;
+}
+.separacion__boton{
+     display: flex;
+    flex-direction: row;
+    margin: 40px;
+
+}
+.button {
+   
+    min-width: 130px;
+    height: 19px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #6c757d;
+    box-shadow: 0 5px #495057;
+    margin-left: 60px;
+  }
+  .button:hover {
+    box-shadow: 0 3px #495057;
+    top: 1px;
+  }
+  .button:active {
+    box-shadow: 0 0 #495057;
+    top: 5px;
+  }
+  .mapa{
+    margin-top: 20px;
+    width: 320px;
+    height: 400px;
+    margin-left: 70px;
+  }
+
+@media(min-width:768px) {
+    header{
+        background-size:cover ;
+        padding: 40px
+    }
+    nav, ul, li,a{
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        justify-content: space-around;
+        
+    }
+    .ofertas{
+       display: flex;
+       flex-direction: row;
+        
+    }
+    .ofertas__fotos{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        border:10px double #0e4c7e ;
+        margin: 10px;
+       }
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    span{
+        font-size: medium
+    }
+    footer{
+        font-size: large;
+    }
+
+
+    /* ENVIOS */
+    label{
+        padding: 140px;
+        margin: 30px;
+    }
+    .mapa{
+        margin-left: 200px;
+    }
+  }
+
+
+
+
+  @media(min-width:1024px) {
+    body{
+        background-image: url(../img/fondopasto.jpg);
+        background-size: cover;
+    }
+    header{
+        padding: 60px;
+    }
+    nav, ul, li, a{
+        margin:30px 0px 30px 30px
+    }
+    .ofertas{
+        margin: 40px;
+        padding: 30px;
+    }
+    .productos{
+        margin-bottom: 40px;
+        padding: 30px;
+    }
+    .productos__fotos{
+        margin: 25px;
+    }
+    .headeralt{
+        background-image: none;
+    }
+
+    /* animacion de contacto para pc */
+    .none:hover{
+        transform: scale(2);
+        transition-property: all;
+        transition-duration: 1s;
+    }  
+
+    /* ENVIOS */
+    label{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .mapa{
+       margin-left: 200px;
+    }
+
+
+
+}
