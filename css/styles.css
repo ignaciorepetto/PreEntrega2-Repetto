@@ -89,8 +89,22 @@ footer{
     color: darkslategrey;
     font-size: 10px;
 }
+/* PARTE PAGINA CULTIVO */
+
+.caja__productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    
+    align-items: center; 
+    border: solid black 3px;
+}
 
 
+.producto__foto--cultivo{
+    height: fit-content;
+    border-bottom: solid black 10px;
+}
 /* PARTE PAGINA CONTACTO */
 .logos
 {
@@ -200,16 +214,21 @@ label{
     .mapa{
         margin-left: 200px;
     }
-  }
-
-
+  
+    /* CULTIVO */
+    .caja__productos{
+        display: grid;
+        grid-row: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+    .producto__foto--cultivo{
+        border: grey double;
+    }
+   
 
 
   @media(min-width:1024px) {
-    body{
-        background-image: url(../img/fondopasto.jpg);
-        background-size: cover;
-    }
     header{
         padding: 60px;
     }
@@ -248,6 +267,9 @@ label{
        margin-left: 200px;
     }
 
+    /* CULTIVO */
 
-
+    .cultivo__productos{
+        margin:40px
+    }
 }
