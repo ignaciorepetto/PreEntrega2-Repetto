@@ -30,8 +30,12 @@ nav, ul, li, a{
 }
 
 a{  
-    background: rgb(127,9,190);   background: radial-gradient(circle, rgba(127,9,190,1) 39%, rgba(227,46,205,1) 54%, rgba(213,70,252,1) 64%, rgba(252,70,74,0.8099614845938375) 80%);
-    border-radius: 50%;}
+
+   background-color: black;
+   border-radius: 50%;
+   padding: 10px;
+   
+ }
 
 h1{
     text-align: center;
@@ -233,7 +237,8 @@ label{
         padding: 60px;
     }
     nav, ul, li, a{
-        margin:30px 0px 30px 30px
+        margin:30px 0px 30px 30px;
+        font-size: x-large;
     }
     .ofertas{
         margin: 40px;
