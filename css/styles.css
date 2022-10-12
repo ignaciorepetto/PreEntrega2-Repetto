@@ -102,7 +102,9 @@ footer{
 .producto__foto--cultivo{
     height: fit-content;
     border-bottom: solid black 10px;
+    width: 300px;
 }
+
 /* PARTE PAGINA CONTACTO */
 .logos
 {
@@ -121,6 +123,12 @@ margin-bottom: 40px;
 
 }
 /* PARTE PAGINA ENVIOS */
+
+#bgenvios{
+    background: rgb(34,195,44);
+    background: linear-gradient(0deg, rgba(34,195,44,1) 0%, rgba(0,0,0,1) 49%, rgba(232,12,12,1) 100%);
+    color: rgb(252, 235, 4);
+}
 .envios{
     background-color: white;
     display: flex;
@@ -165,6 +173,14 @@ label{
     width: 320px;
     height: 400px;
     margin-left: 70px;
+}
+
+/* parafernalia */
+.parafernalia__productos--fotos{
+    height: fit-content;
+    width: 300px;
+    border: solid black 5px;
+    margin: 3px;
 }
 
 @media(min-width:768px) {
@@ -223,6 +239,8 @@ label{
 }
     .producto__foto--cultivo{
         border: grey double;
+    
+        height: auto;
     }
 
 
