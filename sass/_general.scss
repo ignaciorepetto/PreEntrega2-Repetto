@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); 
+    background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0);
+    display: grid;
+    justify-content: center;
+
+}
+header{
+    background-image: url(../img/fondopasto.jpg);
+    background-size: contain;
+}
+
+nav, ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white    ;
+    font-size: large;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+a{  
+
+background-color: black;
+border-radius: 50%;
+padding: 10px;
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(22, 0, 43);
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #0e4c7e;
+    margin: 20px;
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0);
+    background: linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0);
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    color: rgb(24, 7, 32);
+    background-color: wheat;
+}
+
+
+
+footer{
+    margin-top: 20px;
+    background-color: azure;
+    color: darkslategrey;
+    font-size: 10px;
+}
+
+@media(min-width:1024px){
+    footer{
+        font-size: large;
+    }
+}

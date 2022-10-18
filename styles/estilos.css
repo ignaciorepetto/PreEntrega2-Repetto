@@ -51,6 +51,18 @@ h2 {
   background-color: wheat;
 }
 
+footer {
+  margin-top: 20px;
+  background-color: azure;
+  color: darkslategrey;
+  font-size: 10px;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    font-size: large;
+  }
+}
 .ofertas {
   display: grid;
   justify-content: center;
@@ -74,13 +86,6 @@ span {
   color: white;
   font-size: xx-small;
   text-align: start;
-}
-
-footer {
-  margin-top: 20px;
-  background-color: azure;
-  color: darkslategrey;
-  font-size: 10px;
 }
 
 /* PARTE PAGINA CULTIVO */
@@ -133,7 +138,6 @@ label {
 
 .button {
   min-width: 130px;
-  height: 19px;
   color: #fff;
   padding: 5px 10px;
   font-weight: bold;
@@ -207,24 +211,24 @@ label {
   span {
     font-size: medium;
   }
-  footer {
-    font-size: large;
-  }
-  /* ENVIOS */
-  label {
-    padding: 140px;
-    margin: 30px;
-  }
-  .mapa {
-    margin-left: 200px;
-  }
-  /* CULTIVO */
-  .caja__productos {
-    display: grid;
-    grid-row: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
 }
+/* ENVIOS */
+label {
+  padding: 140px;
+  margin: 30px;
+}
+
+.mapa {
+  margin-left: 200px;
+}
+
+/* CULTIVO */
+.caja__productos {
+  display: grid;
+  grid-row: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
 .producto__foto--cultivo {
   border: grey double;
   height: auto;
