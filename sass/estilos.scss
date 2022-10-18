@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Rubik+Glitch&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -40,7 +43,8 @@ padding: 10px;
 h1{
     text-align: center;
     color: rgb(22, 0, 43);
-    font-family: fantasy;
+     
+    font-family: 'Rubik Glitch', cursive;
     font-weight: bold;
     text-shadow: 5px 5px 10px #0e4c7e;
     margin: 20px;
@@ -50,6 +54,7 @@ h1{
 }
 
 h2{
+    font-family: 'Lobster Two', cursive;
     text-align: center;
     color: rgb(24, 7, 32);
     background-color: wheat;
