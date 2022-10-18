@@ -31,13 +31,13 @@
     justify-items: center;
     
     align-items: center; 
-    border: solid black 3px;
+    border: solid $border 3px;
 }
 
 
 .producto__foto--cultivo{
     height: fit-content;
-    border-bottom: solid black 10px;
+    border-bottom: solid $border 10px;
     width: 300px;
 }
 
@@ -109,7 +109,7 @@ label{
 .parafernalia__productos--fotos{
     height: fit-content;
     width: 300px;
-    border: solid black 5px;
+    border: solid $border 5px;
     margin: 3px;
 }
 @media(min-width:768px) {
