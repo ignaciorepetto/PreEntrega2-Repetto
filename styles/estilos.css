@@ -76,6 +76,14 @@ footer {
   margin-bottom: 10px;
 }
 
+#carruselinicio {
+  padding: 0px 100px 100px 200px;
+}
+
+.col2 {
+  margin-top: 30px;
+}
+
 .sizeimg {
   width: 500px;
   height: 300px;

@@ -3,21 +3,26 @@
     justify-content: center;
     
     }
-    .ofertas__fotos{
+.ofertas__fotos{
         display: flex;
         flex-direction: column;
         padding: 10px;
         border:10px double #0e4c7e ;
         margin-bottom: 10px;
     }
-    
-    .sizeimg{
+#carruselinicio{
+        padding: 0px 100px 100px 200px;
+    }
+.col2{
+    margin-top: 30px;
+}
+.sizeimg{
         width: 500px;
         height: 300px;
         
     }
     
-    span{
+span{
         background-color: grey;
         color: white;
         font-size: xx-small;
